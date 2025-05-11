@@ -7,6 +7,23 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.intro{
+    font-size: 60px;
+    font-style: italic;
+}
+.h1{
+    text-align: center;
+    padding: 40px 0 100px;
+  
+}
+.h1::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    background:rgb(214, 152, 70) ;
+}
 .section1{
     display: flex;
     min-height: 100vh;
@@ -40,16 +57,22 @@ html{
     justify-content: end;
     gap: 20px;
     padding:20px;
+    color: white;   
+}
+.navbar a{
+    text-decoration: none;
     color: white;
-
+    font-weight: bold;
 }
 .logo{
     font-weight: bold;
     font-size: 30px;
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
     color: white;
+    font-style: italic;
 }
+
 header{
     background-color: rgb(214, 152, 70);
     
@@ -57,6 +80,7 @@ header{
 .section2{
     padding-top: 100px;
     display:flex;
+    
 }
 .about-section{
     display: flex;
@@ -104,22 +128,22 @@ p{
 }
 .contact-us{
     display: flex;
-   padding: 50px;
-   
+   justify-content: space-between;
+   align-items: center;
+
 }
 .form{
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
-    justify-content: space-between;
+    padding-left: 50px;
 }
 .contacts{
-    padding-top: 70px;
+    
     padding-left: 50px;
 }
 .socials{
-    padding-left: 50px;
-    padding-top: 70px;
+    padding-right: 50px;
+   
 }
 h5{
     padding-top: 0;
