@@ -5,43 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coffee website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
 <section>
     <header>
-        <a class="logo">Coffee</a>
-        <nav class="navbar">
+        <a class="logo">SIP Coffee</a>
+        <nav class="navbar" id="navbar">
             
-            <div><a href="home"></a>Home</div>
-            <div><a href="about"></a>About</div>
-            <div><a href="contact"></a>Contact</div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 </section>
 <main>
-<section class="section1">
+<section class="section1" id="home" >
     <div>
-    <h1>Welcome</h1>
+    <h1 class="h1">Welcome</h1>
     <p>Sip coffee at the comfort of your sit</p>
     <button class="button">Buy Now</button>
 </div>   
     <img src="images/coffee-hero-section.png" alt="cup of coffee" class="cup">
 </section>
 
+<section class="section2" id="about">
+    <div><img src="images\hot-beverages.png" alt=""></div>
+    <div class="about-section">
+        <h1 class="h1">About us</h1>
+        <p>At sip coffee House, we are proud to be the leading supplier of coffee to all your desired destinations.We are dedicated to providing an unforgettable taste and love to our estimed customers.</p>
+    </div>
+    
+</section>
 
+<section class="menu-section" id="menu">
+    <div> 
+        <h1>Our Menu</h1>
+        <ul class="items">
+            <li class="menu-item">
+                <img src="images/coffee 1.jpg" alt="cup of coffee" class="img">
+                <div class="item-content">
+                <h3 > Coffee</h3>
+                <p class="p2">Hot or cold coffee.</p>
+                <button class="button">price :$7</button>
+            </div>
+            </li>
+            <li>
+                <img src="images/dessert.jpg" alt="dessert " class="img">
+                <div  class="item-content">
+                <h3>Milkshake</h3>
+                <p class="p2">variety of shakes depending on your taste</p>
+                <button class="button">price :$8</button>
+            </div>
+            </li>
+            <li>
+                <img src="images/doughnut.jpg" alt="doughnut " class="img1">
+                <div  class="item-content">
+                <h3>Doughnut</h3>
+                <p class="p2">Doughnut desserts also available</p>
+                <button class="button">price :$5</button>
+            </div>
+            </li>
+            <li>
+                <img src="images/tea.jpg" alt="tea " class="img2">
+                <div  class="item-content">
+                <h3>Tea</h3>
+                <p class="p2">Tea lovers are also catered for</p>
+                <button class="button">price :$6</button>
+            </div>
+            </li>
+        </ul> 
+    </div>
+</section>
 
+<section class="contact-us" id="contact">
+    <h2>Contact Us</h2>
+    
+    <div class="form">
+        <form >
+            <label for="text">Name:</label>
+            <input type="text" name="text" id="text" placeholder=" yourname">
+            <br><br>
+            <label for="text">Email:</label>
+            <input type="text" name="text" id="text" placeholder=" email@example.com">
+            <br><br>
+            <textarea name="" id="text" placeholder="message"></textarea>
+           <button class="button">send</button>
+        </form>
+    </div>
+    <div class="contacts">
+        <ul>
+            <li>
+                <h4>contacts</h4>
+                <i class="fa-solid fa-phone"></i>
+                <h5>+254 701 294 531</h5>
+            </li>
+            <li>
+               
+                <i class="fa-solid fa-envelope"></i>
+                <h5>sipcoffe@gmail.com</h5>
+            </li>
+        </ul>
+    </div>
+    <div class="socials">
+        <ul>
+            <h4>socials</h4>
+            <li>
+                <i class="fa-brands fa-instagram"> </i></li>
+                <h5>@sipcoffee</h5>
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                    <h5>@sipcoffee</h5>
+                </li>
+        </ul>
+        
+    </div>
 
-
-
-
-
-
-
-
+</section>
 
 </main>
-
+<footer>@2025 SIP Coffee.All rights reserved</footer>
 
     <script src="script.js"></script>
 </body>
